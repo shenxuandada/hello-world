@@ -1,0 +1,10 @@
+def move(n, a, buffer, c):
+    if(n == 1):
+        print(a,"->",c)
+        return
+    move(n-1, a, c, buffer)
+    move(1, a, buffer, c)
+    move(n-1, buffer, a, c)
+move(3, "a", "b", "c")
+
+// The first is to define a moving function, four parameters represent, respectively, the number of plates on a column a, buffer is b column, named buffer is easy to understand, as the name implies is a move to c buffer.Then c is the target post.
