@@ -1,13 +1,3 @@
-Hello, my name is SUN QIGAN
-I am a passionate novice developer when it comes to technology. I'm often referred to as a "newbie," but I have a deep love for programming, open-source projects, and the pursuit of new technologies. I frequently work with the following programming languages:
-
-- Python
-- C++
-
-My hobbies include sports, fitness, and video games. Occasionally, I enjoy exploring the unique beauty of life on my own. I'm also enthusiastic about contributing to the open-source community.
-
-
-Feel free to reach out to me, and let's explore technology and collaborate on projects together.
 def move(n, a, buffer, c):
     if(n == 1):
         print(a,"->",c)
